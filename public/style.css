@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid yellow; */
+}
+.navigate{
+    /* margin-right: auto; */
+    display: flex;
+    justify-content: space-between;
+    background-image: url(banner_bg.png);
+    background-size: cover;
+    align-items: center;
+    
+}
+   
+
+/* Add a black background color to the top navigation */
+.web {
+    position: relative;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+   
+  }
+
+  /* Style the links inside the navigation bar */
+  .web a {
+   
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .web a:hover {
+    background-color: #ddd;
+    color: rgb(83, 80, 80);
+  } 
+  @media screen and (max-width: 600px) {
+    .web a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+/* Course */
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 300;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.course-col:hover{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.4);
+}
+/*Course in Media query*/
+   
+.course-col{
+    margin: 10px 10px;
+}
+.row{
+    flex-direction: column;  
+}   
+.course-col:hover{
+    box-shadow: 3px 3px 0.5px 0.5px rgba(0, 0, 0, 0.486);
+}
+
+
+  .footer {
+    text-align: center; /* Center-align the content */
+    padding: 1px; /* Add some padding for spacing */
+    background-color: #e5e4e4; /* Add a background color */
+}
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+/* Style for copyright notice */
+.copyright {
+    
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+    
+   
+ 

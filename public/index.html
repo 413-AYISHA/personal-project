@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet"href="style.css">
+    <style>
+     .myslides{display: none;}   
+    </style>
+    <title>nav bar</title>
+</head>
+
+<body>
+    <header>
+        <div class="navigate">
+            <img src="kvcet logo.png">
+            
+         <nav class="web">
+            <a href="">Home</a>
+            <a href="form.html">Admission</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Login</a>
+            <a href="">Register</a>
+            <a href="">Placements</a>
+           
+            
+          
+        </nav> 
+     </div>
+        <div class="menu">
+      
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div> 
+          
+</body>
+<body>
+    <div style="max-width:100%">
+        <img class="mySlides" src="entrance clg.jpg" style="width:100%">
+        <img class="mySlides" src="clg.jpeg" style="width:100%">
+        <img class="mySlides" src="clg bg.jpg" style="width:100%">
+        
+        
+        </div>
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1} 
+        x[myIndex-1].style.display = "block"; 
+        setTimeout(carousel, 2000); 
+        }
+        </script>
+
+</body>
+</header>
+</html>
+
+    <!--Course of Collage-->
+
+    <section class="course"id="course_call">
+        <h1>Course We Offer</h1>
+        <p>"Explore a diverse range of computer courses offered at our college, and successful careers in various fields."</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h2>BE-CS</h2>
+                <p>Engineering in Computer Science, software development, algorithms, and other core concepts in computer science. This degree prepares students for careers in various fields such as software engineering, cybersecurity and more."</p>
+            </div>
+
+            <div class="course-col">
+                <h2>BE-IT </h2>
+                <p>Information Technology it focus on the  networks, software development, and information management and often pursue careers as software engineers, IT consultants, systems analysts, web developers. </p>
+            </div>
+
+            <div class="course-col">
+                <h2>ADS</h2>
+                <p> AI and Data Science is particularly powerful, as AI techniques can be applied to analyze and derive insights from vast amounts of data ,AI techniques such as machine learning, and computer vision  </p>
+            </div>
+
+    </section>  
+    <!-- Footer section -->
+    
+    <div class="footer">
+    <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;KVCET , Madhurandhagam</p>
+    <p><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;+12345678988</p>
+    <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;kvcet@gmail.com</p>
+    
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <p>&copy; 2024 our college. All rights reserved || Developed by <span>&#10084;</span>Affy</p>
+   </div>
+</div>
+</html>
