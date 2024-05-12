@@ -21,18 +21,12 @@
     text-decoration: none;
     font-size: 17px;
     overflow: hidden;
-<<<<<<< HEAD
    
-=======
->>>>>>> 546e56736a9b0e4ae24a78e8726e3f9da2e1fd70
   }
 
   /* Style the links inside the navigation bar */
   .web a {
-<<<<<<< HEAD
    
-=======
->>>>>>> 546e56736a9b0e4ae24a78e8726e3f9da2e1fd70
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
@@ -52,10 +46,7 @@
   }
 
 /* Course */
-<<<<<<< HEAD
 
-=======
->>>>>>> 546e56736a9b0e4ae24a78e8726e3f9da2e1fd70
 .course{
     width: 80%;
     margin: auto;
@@ -107,11 +98,8 @@ h3{
 .course-col:hover{
     box-shadow: 3px 3px 0.5px 0.5px rgba(0, 0, 0, 0.486);
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 546e56736a9b0e4ae24a78e8726e3f9da2e1fd70
   .footer {
     text-align: center; /* Center-align the content */
     padding: 1px; /* Add some padding for spacing */
@@ -135,10 +123,7 @@ h3{
 
 /* Style for copyright notice */
 .copyright {
-<<<<<<< HEAD
     
-=======
->>>>>>> 546e56736a9b0e4ae24a78e8726e3f9da2e1fd70
     font-size: 14px;
     color: #666;
 }
@@ -149,8 +134,4 @@ h3{
 
     
    
-<<<<<<< HEAD
  
-=======
- 
->>>>>>> 546e56736a9b0e4ae24a78e8726e3f9da2e1fd70
